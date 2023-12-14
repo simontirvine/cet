@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'virtualcdo'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_702BC060BEFC4F6B9691F3C2F1FA522B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4B020E114F8C4DECBEDB1B6996072484 }}
