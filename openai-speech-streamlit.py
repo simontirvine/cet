@@ -57,7 +57,7 @@ audio_config = speechsdk.audio.AudioConfig(use_default_microphone=True)
 
 # Should be the locale for the speaker's language.
 speech_config.speech_recognition_language="en-GB"
-speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config, audio_config=file_config)
+speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config, audio_config=audio_config)
 
 # The language of the voice that responds on behalf of Azure OpenAI.
 speech_config.speech_synthesis_voice_name='en-GB-RyanNeural'
