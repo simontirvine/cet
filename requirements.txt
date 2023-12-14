@@ -22,7 +22,6 @@ importlib-metadata==6.11.0
 Jinja2==3.1.2
 jsonschema==4.20.0
 jsonschema-specifications==2023.11.2
-libasound2
 markdown-it-py==3.0.0
 MarkupSafe==2.1.3
 mdurl==0.1.2
@@ -32,6 +31,7 @@ openai==0.28.1
 packaging==23.2
 pandas==2.1.4
 Pillow==10.1.0
+pulsectl 
 protobuf==4.25.1
 pyarrow==14.0.1
 pydantic==2.5.2
